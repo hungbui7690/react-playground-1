@@ -1,25 +1,35 @@
 /*
-  User Challenge
-  - create state value
-    > user - default value null
-  - create two functions
-    > login - set's user equal to object with name property
-    > logout - set's user equal to null
-  - in jsx use ? to display two different setups
-    > h4 with "hello there, user name" and logout button
-    > h4 with "please login " and login button
+  React - Intro
 
-  *** use ternary operator
+************************
+
+  Goals
+
+************************
+
+  Structure
+
+************************
+
+  Requirement
+
+************************
+
+  Vite 
+  - npm create vite@latest
+    -> Javascript Only
+
 
 */
 
-import Starter from './07-user-challenge'
-import './index.css'
+import './App.css'
 
 function App() {
   return (
-    <div className='container'>
-      <Starter />
+    <div className='App'>
+      <header className='App-header'>
+        <h1>React Tutorial</h1>
+      </header>
     </div>
   )
 }

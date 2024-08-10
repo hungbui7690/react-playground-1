@@ -1,19 +1,35 @@
 /*
-  Set Function "Gotcha"
-  - setTimeout Example
+  React - Intro
 
-  - should we use functional update approach for everything?
-    >> depends on each case
+************************
+
+  Goals
+
+************************
+
+  Structure
+
+************************
+
+  Requirement
+
+************************
+
+  Vite 
+  - npm create vite@latest
+    -> Javascript Only
+
 
 */
 
-import Starter from './01-code-example'
-import './index.css'
+import './App.css'
 
 function App() {
   return (
-    <div className='container'>
-      <Starter />
+    <div className='App'>
+      <header className='App-header'>
+        <h1>React Tutorial</h1>
+      </header>
     </div>
   )
 }

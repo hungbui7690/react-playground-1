@@ -1,18 +1,37 @@
 /*
-  Custom Hooks Generic Fetch
-  (1) create useFetch.js
-      > we will convert useFetchUser.js to useFetch.js (generic)
+  React - Intro
+
+************************
+
+  Goals
+
+************************
+
+  Structure
+
+************************
+
+  Requirement
+
+************************
+
+  Vite 
+  - npm create vite@latest
+    -> Javascript Only
 
 
 */
 
-import Starter from './02-fetch-data'
+import './App.css'
 
-const App = () => {
+function App() {
   return (
-    <main>
-      <Starter />
-    </main>
+    <div className='App'>
+      <header className='App-header'>
+        <h1>React Tutorial</h1>
+      </header>
+    </div>
   )
 }
+
 export default App
