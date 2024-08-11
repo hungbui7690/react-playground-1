@@ -1,9 +1,3 @@
-/*
-  Alternative Server Setup
-
-
-*/
-
 import { ToastContainer } from 'react-toastify'
 import Form from './Form'
 import Items from './Items'

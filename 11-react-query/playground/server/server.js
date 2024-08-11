@@ -1,8 +1,8 @@
 import express from 'express'
 import cors from 'cors'
 import { nanoid } from 'nanoid'
-const app = express()
 import morgan from 'morgan'
+const app = express()
 
 let taskList = [
   { id: nanoid(), title: 'walk the dog', isDone: false },
