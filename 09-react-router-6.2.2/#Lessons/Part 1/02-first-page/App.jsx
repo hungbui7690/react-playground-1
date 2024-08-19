@@ -1,5 +1,10 @@
 /*
   React Router 6.2.2 - First Pages
+  ❌ For version 6.11.2 -> check react-mixmaster-project-tutorial
+
+
+***************************
+
   ~~ npm install react-router-dom@6.2.2
 
 
