@@ -1,7 +1,8 @@
 /*
   Create Task - Initial Setup
-  - useQuery    -> fetch
-  - useMutation -> create, update, delete
+  - Unlike queries, mutations are typically used to create/update/delete data or perform server side-effects. For this purpose, TanStack Query exports a useMutation hook.
+    -> useQuery    -> fetch
+    -> useMutation -> create, update, delete
 
 
 ***************************

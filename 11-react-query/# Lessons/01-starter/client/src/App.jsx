@@ -10,6 +10,7 @@ const defaultItems = [
   { id: nanoid(), title: 'drink coffee', isDone: true },
   { id: nanoid(), title: 'take a nap', isDone: false },
 ]
+
 const App = () => {
   const [items, setItems] = useState(defaultItems)
   return (

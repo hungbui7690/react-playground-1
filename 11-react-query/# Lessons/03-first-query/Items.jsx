@@ -2,6 +2,7 @@
   First Query
   - Query Key
     -> The unique key you provide is used internally for refetching, caching, and sharing your queries throughout your application.
+    -> TanStack Query manages query caching for you based on query keys
 
 
 ****************************
