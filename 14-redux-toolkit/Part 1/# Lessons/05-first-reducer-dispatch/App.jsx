@@ -1,6 +1,9 @@
 /*
   First Reducer - Clear Cart
   🎯 reducer is used to control the states of each slice (feature/functionality)
+  🍚 we can see that after clear cart -> if we refresh data will go back 
+    -> it means that rtk state does not persist any data -> we need to use localStorage or other stuffs to persist data 
+    -> redux-persist: https://blog.logrocket.com/persist-state-redux-persist-redux-toolkit-react/
 
 
 ******************************

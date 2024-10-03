@@ -1,6 +1,6 @@
 /*
   useSelector
-  - use to access store values 
+  - use to access store values (states)
     -> const { amount } = useSelector((store) => store.cart)
 
 
